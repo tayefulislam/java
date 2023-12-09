@@ -27,8 +27,11 @@ public class ifElse {
             System.out.println("C Grade");
         }
 
-        else if (number >= 0 && number < 40) {
+        else if (number >= 20 && number < 40) {
             System.out.println("Fail");
+        } else if (number >= 0 && number < 20) {
+
+            System.out.println("Next time try ok");
         }
 
         else {
